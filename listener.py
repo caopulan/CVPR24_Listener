@@ -44,4 +44,4 @@ try:
         time.sleep(300)
 
 except requests.exceptions.RequestException as e:
-    reminder("网络错误", "检查OpenReview API时发生网络错误，循环已终止。")
+    reminder("网络错误", "发生网络错误，循环已终止。")
